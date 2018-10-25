@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio En Clase De Electron</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+            <h1>Ejercicio En Clase De Electron</h1>
+
+            <form>
+                <br>
+        
+        <h5>
+            <label>Titulo Del Archivo</label>
+             <input id="fileName" type="text" class="form-control">
+        
+                <br>
+        
+            <label>Contenido Del Archivo</label>
+        </h5>
+                
+                <textarea id="fileContents" class="form-control" rows="5"></textarea>
+        
+            </form>
+            <h5>
+            <button id="btnCreate">Crear Archivo</button>
+            <button id="btnRead">Leer Archivo</button>
+            <button id="btnDelete">Borrar Archivo</button>
+            </h5>
+
+    </div>
+
+    
+    <script>
+        require('./index.js')
+    </script>
+</body>
+
+</html>
